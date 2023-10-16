@@ -17,7 +17,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
-    <sonar.host.url>http://43.206.219.14:9000/</sonar.host.url>
+    <sonar.host.url>http://52.91.125.85:9000/</sonar.host.url>
   </properties>
 
   <dependencies>
@@ -32,12 +32,12 @@
   <distributionManagement>
 		 <snapshotRepository>
 		    <id>nexusRepo</id>
-		    <url>http://54.238.35.182:8081/repository/sample-snapshot/</url>
+		    <url>http://54.237.43.251:8081/repository/sample-snapshot/</url>
 		 </snapshotRepository>
 		
 		 <repository>
 		    <id>nexusRepo</id>
-		    <url>http://54.238.35.182:8081/repository/sample-release/</url>
+		    <url>http://54.237.43.251:8081/repository/sample-release/</url>
 		 </repository>
   </distributionManagement>
 
