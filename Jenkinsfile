@@ -19,20 +19,20 @@ pipeline{
         stage("Nexus Artifact Uploader"){
             steps{
                 nexusArtifactUploader artifacts: [
-                [
-                  artifactId: 'webpage_feture', 
-                  classifier: '', 
-                  file: 'target/webpage_feture.war', 
-                  type: 'war'
-                ]
-                ], 
-                  credentialsId: 'nexus3', 
-                  groupId: 'sample_project', 
-                  nexusUrl: '172.31.26.246:8081', 
-                  nexusVersion: 'nexus3', 
-                  protocol: 'http', 
-                  repository: 'sample-snapshot', 
-                  version: 'snap'
+		 [
+		   artifactId: 'webpage_feture', 
+		   classifier: '', 
+		   file: '/var/lib/jenkins/workspace/Pipeline_Job_GMSNT/Maven/webpage_feture/target/webpage_feture.war', 
+		   type: 'war'
+		 ]
+		], 
+		credentialsId: 'nexus3', 
+		groupId: 'sample_project', 
+		nexusUrl: '54.64.49.78:8081', 
+		nexusVersion: 'nexus3', 
+		protocol: 'http', 
+		repository: 'sample-release', 
+		version: 'snap'
             }
         }
         stage("Tomcat deploy"){
