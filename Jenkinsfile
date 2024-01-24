@@ -32,7 +32,7 @@ pipeline{
 		nexusVersion: 'nexus3', 
 		protocol: 'http', 
 		repository: 'sample-snapshot', 
-		version: 'snap'
+		version: '8.1.0-snapshot'
             }
         }
         stage("Tomcat deploy"){
