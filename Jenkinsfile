@@ -22,7 +22,7 @@ pipeline{
 		 [
 		   artifactId: 'webpage_feture', 
 		   classifier: '', 
-		   file: '/var/lib/jenkins/workspace/Pipeline_Job_GMSNT/Maven/webpage_feture/target/webpage_feture.war', 
+		   file: '/var/lib/jenkins/workspace/pipline/Maven/webpage_feture/target/webpage_feture.war', 
 		   type: 'war'
 		 ]
 		], 
@@ -31,7 +31,7 @@ pipeline{
 		nexusUrl: '54.64.49.78:8081', 
 		nexusVersion: 'nexus3', 
 		protocol: 'http', 
-		repository: 'sample-release', 
+		repository: 'sample-snapshot', 
 		version: 'snap'
             }
         }
