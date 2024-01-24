@@ -28,7 +28,7 @@ pipeline{
 		], 
 		credentialsId: 'nexus3', 
 		groupId: 'sample_project', 
-		nexusUrl: '54.64.49.78:8081', 
+		nexusUrl: '172.31.26.246:8081', 
 		nexusVersion: 'nexus3', 
 		protocol: 'http', 
 		repository: 'sample-snapshot', 
