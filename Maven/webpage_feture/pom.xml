@@ -6,7 +6,7 @@
 
   <groupId>sample_project</groupId>
   <artifactId>webpage_feture</artifactId>
-  <version>snap</version>
+  <version>8.1.0-snapshot</version>
   <packaging>war</packaging>
 
   <name>webpage_feture Maven Webapp</name>
